@@ -1,6 +1,6 @@
 {
   "name": "weather-app",
-  "homepage": "https://webbbNerd.github.io/CollegeProjects/Weather_react_app",
+  "homepage": "https://webbbNerd.github.io/CollegeProjects/Weather_react_app-master",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^12.8.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
