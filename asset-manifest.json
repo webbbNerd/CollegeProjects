@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CollegeProjects/Weather_react_app/static/css/main.d316778d.chunk.css",
-    "main.js": "/CollegeProjects/Weather_react_app/static/js/main.0f4d761d.chunk.js",
-    "main.js.map": "/CollegeProjects/Weather_react_app/static/js/main.0f4d761d.chunk.js.map",
-    "runtime-main.js": "/CollegeProjects/Weather_react_app/static/js/runtime-main.711a5a47.js",
-    "runtime-main.js.map": "/CollegeProjects/Weather_react_app/static/js/runtime-main.711a5a47.js.map",
-    "static/js/2.2b7f8436.chunk.js": "/CollegeProjects/Weather_react_app/static/js/2.2b7f8436.chunk.js",
-    "static/js/2.2b7f8436.chunk.js.map": "/CollegeProjects/Weather_react_app/static/js/2.2b7f8436.chunk.js.map",
-    "static/js/3.dcb6c54c.chunk.js": "/CollegeProjects/Weather_react_app/static/js/3.dcb6c54c.chunk.js",
-    "static/js/3.dcb6c54c.chunk.js.map": "/CollegeProjects/Weather_react_app/static/js/3.dcb6c54c.chunk.js.map",
-    "index.html": "/CollegeProjects/Weather_react_app/index.html",
-    "static/css/main.d316778d.chunk.css.map": "/CollegeProjects/Weather_react_app/static/css/main.d316778d.chunk.css.map",
-    "static/js/2.2b7f8436.chunk.js.LICENSE.txt": "/CollegeProjects/Weather_react_app/static/js/2.2b7f8436.chunk.js.LICENSE.txt"
+    "main.css": "/CollegeProjectsWeather_react_app-master/static/css/main.d316778d.chunk.css",
+    "main.js": "/CollegeProjectsWeather_react_app-master/static/js/main.0f4d761d.chunk.js",
+    "main.js.map": "/CollegeProjectsWeather_react_app-master/static/js/main.0f4d761d.chunk.js.map",
+    "runtime-main.js": "/CollegeProjectsWeather_react_app-master/static/js/runtime-main.f7007d21.js",
+    "runtime-main.js.map": "/CollegeProjectsWeather_react_app-master/static/js/runtime-main.f7007d21.js.map",
+    "static/js/2.2b7f8436.chunk.js": "/CollegeProjectsWeather_react_app-master/static/js/2.2b7f8436.chunk.js",
+    "static/js/2.2b7f8436.chunk.js.map": "/CollegeProjectsWeather_react_app-master/static/js/2.2b7f8436.chunk.js.map",
+    "static/js/3.dcb6c54c.chunk.js": "/CollegeProjectsWeather_react_app-master/static/js/3.dcb6c54c.chunk.js",
+    "static/js/3.dcb6c54c.chunk.js.map": "/CollegeProjectsWeather_react_app-master/static/js/3.dcb6c54c.chunk.js.map",
+    "index.html": "/CollegeProjectsWeather_react_app-master/index.html",
+    "static/css/main.d316778d.chunk.css.map": "/CollegeProjectsWeather_react_app-master/static/css/main.d316778d.chunk.css.map",
+    "static/js/2.2b7f8436.chunk.js.LICENSE.txt": "/CollegeProjectsWeather_react_app-master/static/js/2.2b7f8436.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.711a5a47.js",
+    "static/js/runtime-main.f7007d21.js",
     "static/js/2.2b7f8436.chunk.js",
     "static/css/main.d316778d.chunk.css",
     "static/js/main.0f4d761d.chunk.js"
