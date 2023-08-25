@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    margin:0;
+    background:#d1d1d1;
+}
+.MuiTypography-body1{
+    font-family: 'Exo 2', sans-serif !important;
+}
+.cardssize{
+    width:25em;
+    border-radius: 3%!important;
+    transition: transform .5s!important;
+    margin-bottom:3em;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
+}
+.cardhead{
+    margin-top: 3em;
+}
+.cardssize:hover {
+    transform: scale(1.08)!important; 
+  }
+@media(max-width:1242px){
+    .cardssize{
+        width:20em;
+    }
+}
+@media(max-width:1024px){
+    .cardhead{
+        grid-template-columns: auto auto !important;
+    }
+}
+@media(max-width:676px){
+    .cardhead{
+        grid-template-columns: auto !important;
+    }
+}
+
+span.lazy-load-image-background.blur.lazy-load-image-loaded{
+    display: block !important;;
+}

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Utkarsh Singh</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="gallary.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body,html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 180%;
+  color: #666;
+  text-align: center;
+   transition: 4s;
+    }
+
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function() {
+          $(".menu-icon").on("click", function(){
+            $("nav ul").toggleClass("showing");
+            });
+      });
+
+    $(window).on("scroll",function(){
+          if($(window).scrollTop()){
+            $('nav').addClass('black');
+          }
+          else{
+               $('nav').removeClass('black');
+          }
+    });
+    </script>
+    <script>
+$(document).ready(function(){
+  $(".menu a, .logo a[href='#myPage'],footer a[href='#myPage']").on('click', function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 1200, function(){
+      window.location.hash = hash;
+      });
+    }
+  });
+})
+</script>
+</head>
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <div class="wrapper">
+    <header>
+         <nav>
+              <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+              </div>
+              <div id="myPage">
+              <div class="logo">
+                 <a href="#myPage"> LOGO</a>
+              </div>
+           
+              <div class="menu">
+                <ul>
+                  <li><a href="#abou">about</a></li>
+                  <li><a href="#timer">Timeline</a></li>
+                  <li><a href="#interest">interest</a></li>
+                  <li><a href="#contact">contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header> 
+  </div>
+
+
+ <div class="parallax1">
+    <div class="heading"
+    >
+     discover
+    </div>
+    <div class="heading2">
+      me
+    </div>
+  </div>
+
+ <section class="there" id="abou">
+ 
+    <h1>ABOUT</h1>
+    
+        <div class="row">
+
+    <div class="col-sm-12 col-md-12 col-lg-6">
+
+          <h3 class="prof1">Who's this guy?</h3>
+          <br>
+     <div class="hexagon">
+        <div class="hexagon-inside1">
+          <div class="hexagon-image5">
+          </div>
+        </div>
+      </div>
+
+      <p class="prof" >My name is <span style="color:blue;">Ukarsh Singh</span> and I am a 20 years old boy who wants to be the best developer.I have a great passion for web design and development.I'm always looking for new things to learn,with google as my teacher and code editor as my notebook.Coding is my life,exploring web tecnologies and techniques,developing web stuff.Anything that can help me in expanding my knowledge is always welcomed.My motto in work(as in my life) is to "Take the challenge and make it obvious." </p>
+    </div>
+    
+    <div class="col-sm-12 col-md-12 col-lg-6" >
+      <h3 style="padding-top: 90px; padding-right: 20px;"> My Skills</h3>
+      <br>
+     <div class="container"> 
+      <div class="skills">
+        <h6 class="sub">HTML</h6>
+  <div class="progress" style="height:30px" "background-color:#000 ">
+    <div class=" progress-bar progress-bar-striped progress-bar-animated" style="width:80%" id="htmls">80%</div>
+  </div>
+
+  <h6 class="sub">CSS</h6>
+  <div class="progress" style="height:30px">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" style=" width:65%" id="css">65%</div>
+  </div>
+  <h6 class="sub">Bootstrap</h6>
+  <div class="progress" style="height:30px">
+    <div class=" progress-bar progress-bar-striped progress-bar-animated" style=" width:55%" id="boot">55%</div>
+  </div>
+   <h6 class="sub">JS/jquery</h6>
+  <div class="progress" style="height:30px">
+    <div class=" progress-bar progress-bar-striped progress-bar-animated" style=" width:30%" id="js">30%</div>
+  </div>
+   <h6 class="sub">mysql</h6>
+  <div class="progress" style="height:30px">
+    <div class=" progress-bar progress-bar-striped progress-bar-animated" style=" width:60%" id="sql">60%</div>
+  </div>
+</div>
+</div>
+<p class="skil">With all these skills I can convert UI designs into a beautiful website using HTML CSS and Bootstrap.I enjoy turning complex problems into beautiful designs.When I'm not coading you'll find me learning JAVASCRIPT.</p>
+    </div>
+    </section>
+
+
+
+</div>
+  <div class="parallax2">
+    <div class="heading-sm">
+    timeline
+    </div>
+  </div>
+<div class="timeline" id="timer">
+    
+    <div class="row">
+    <div class="col">
+      <div class="hexagonleft">
+        <div class="hexagon-inside">
+          <div class="hexagon-image1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col timerigt">
+      <p class="timerigt"><h1>10th</h1><h5>Rani Laxmi Bai School sec-14 Lucknow</h5> School life upto 10th was more sort of more fun and less learning.Still I managed to get 8.8 cgpa in my exams.</p>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col timeleft">
+      <p class="timeleft"><h1>12th</h1><h5>Rani Laxmi Bai School sec-14 Lucknow</h5>Completed my 12th standard from C.B.S.E board in 2016 under the science branch and I have got 73.6% in my 12th standard.</p>
+    </div>
+    <div class="col">
+      <div class="hexagonrigt">
+        <div class="hexagon-inside2">
+          <div class="hexagon-image2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col">
+     <div class="hexagonleft">
+        <div class="hexagon-inside">
+          <div class="hexagon-image3">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col timerigt">
+      <p class="timerigt"><h1>B.C.A</h1><h5>IIMT group of colleges Gr. Noida | under CCSU</h5> I have completed my gradution from IIMT group of colleges with 67.5% marks.And now I am moving towards my goals to be a best developer.</p>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="col timelefts">
+      <h1 class="timelefts">To be continued...</h1>
+    </div>
+    <div class="col">
+      <div class="hexagonrigts">
+        <div class="hexagon-inside2">
+          <div class="hexagon-image3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+  <div class="parallax3">
+     <div class="heading-sm">
+      interest
+  </div>
+</div>
+<section class="white" id="interest">
+  <h1 style="padding-top: 100px;">Photography</h1>
+   
+    <div class="gallary">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="imagebox first">
+            <img src="img/12.jpg" class="img-responsive">
+            <h3>Leaf</h3>
+           <a href="http://www.shutterstock.com/g/Utkarsh+rathore?rid=204859585"><img src="img/shutterstock-logo.png">
+          </a>
+          
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="imagebox second">
+            <img src="img/13.jpg" class="img-responsive">
+            <h3>Flowers</h3>
+             <a href="http://www.shutterstock.com/g/Utkarsh+rathore?rid=204859585"><img src="img/shutterstock-logo.png">
+          </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="imagebox third">
+            <img src="img/14.jpg" class="img-responsive">
+            <h3>Water drops</h3>
+            <a href="http://www.shutterstock.com/g/Utkarsh+rathore?rid=204859585"><img src="img/shutterstock-logo.png">
+          </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+          <div class="imagebox fourth">
+            <img src="img/15.jpg" class="img-responsive">
+            <h3>Block</h3>
+             <a href="http://www.shutterstock.com/g/Utkarsh+rathore?rid=204859585"><img src="img/shutterstock-logo.png">
+          </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+  </section>
+  
+
+  <div class="parallax4">
+     <div class="heading-sm">
+      contact me
+  </div>
+</div>
+    <div id ="contact">
+      <h5 style="color: #666;padding-top: 40px;">Have a question or want to work together?</h5><br>
+    <div class="container-fluid2">
+      <div class="row">
+        <div class="col-sm-4 col-md-4 col-xs-12"></div>
+        <div class="col-sm-4 col-md-4 col-xs-12">
+          <form id=nam>
+          <div class="form-group">
+            <input type="name" class="form-control" placeholder="name">
+      </div>
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="email">
+      </div>
+      <div class="form-group">
+            <input type="message" class="form-control1" placeholder="message">
+      </div>
+      <button type="submit" style="background-color:#333333"  class="btn btn-success">submit</button>  
+    </form>
+    <div class="col-sm-4 col-md-4 col-xs-12"></div>
+    </div>   
+</div>
+</div>
+</div>
+<section id="foot">
+<footer class="container-fluid text-center" style="background-color:#262626">
+  <a href="#myPage" title="To Top">
+    <i class="fa fa-chevron-up" style="font-size:48px;color: #d9d9d9"></i>
+  </a>
+  <h5 style="color:#d9d9d9
+">Utkarsh Singh@2019</h5>
+</footer>
+</section>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+ <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+     ScrollReveal().reveal('nav',{
+      duration:1000,
+      origin:'bottom',
+      easing:'ease-in'
+    })
+    ScrollReveal().reveal('.heading',{
+      duration:1000,
+      origin:'left',
+      easing:'ease-in'
+      
+    })
+    ScrollReveal().reveal('.heading2',{
+      duration:1000,
+      delay:500,
+     easing:'ease-in',
+        scale: 0.9
+    })
+
+    ScrollReveal().reveal('.there h1',{
+      duration:2000,
+      origin:'left',
+      distance:'400px',
+      delay:200,
+
+    })
+
+    ScrollReveal().reveal('.prof1',{
+      duration:2000,
+      origin:'bottom',
+      distance:'70px',
+      delay:400,
+      easing:'ease-in'
+    })
+
+     ScrollReveal().reveal('.hexagon',{
+    rotate: {
+        x: 100,
+        y:  50,
+        z: 20
+    },
+       duration:2000,
+       delay:800
+    })
+      
+      ScrollReveal().reveal('.prof',{
+      duration:2000,
+     easing:'ease-in',
+      delay:200,
+      origin:'bottom',
+      distance:'20px'
+    })
+
+     ScrollReveal().reveal('.there h3',{
+      duration:2000,
+      delay:400,
+      origin:'bottom',
+      distance:'70px',
+      easing:'ease-in'
+
+    })
+
+     ScrollReveal().reveal('.skills',{
+      duration:2000,
+      origin:'right',
+      distance:'100px',
+    })
+
+     ScrollReveal().reveal('.skil',{
+      duration:2000,
+      easing:'ease-in',
+       delay:200,
+       origin:'bottom',
+      distance:'20px'
+    })
+    
+
+     ScrollReveal().reveal('.heading-sm',{
+      duration:2000,
+      origin:'left',
+      distance:'400px',
+      delay:200
+    })
+    
+
+     ScrollReveal().reveal('.hexagonleft',{
+      duration:2000,
+      origin:'right',
+      distance:'100px',
+    rotate: {
+        x: 500,
+        y:  50,
+        z: 20
+    },
+      delay:200
+    })
+    
+
+     ScrollReveal().reveal('.timeleftt',{
+      duration:2000,
+      origin:'bottom',
+      distance:'200px',
+      delay:200
+    })
+    
+
+     ScrollReveal().reveal('.hexagonrigt',{
+      duration:2000,
+      origin:'left',
+      distance:'100px',
+    rotate: {
+        x: 500,
+        y:  50,
+        z: 500
+    },
+      delay:200
+    })
+    
+     ScrollReveal().reveal('.timerigtt',{
+      duration:2000,
+      origin:'bottom',
+      distance:'200px',
+      delay:200
+    })
+    
+     ScrollReveal().reveal('.timeleftts',{
+      duration:2000,
+      origin:'bottom',
+      distance:'100px',
+      delay:200
+    })
+    
+     ScrollReveal().reveal('.white h1',{
+      duration:2000,
+      easing: 'ease-in-out'
+    })
+    
+
+     ScrollReveal().reveal('.first',{
+      duration:2000,
+      origin:'bottom',
+      distance:'100px',
+      delay:100
+    })
+
+     ScrollReveal().reveal('.second',{
+      duration:2000,
+      origin:'bottom',
+      distance:'100px',
+      delay:400
+    })
+
+     ScrollReveal().reveal('.third',{
+      duration:2000,
+      origin:'bottom',
+      distance:'100px',
+      delay:700
+    })
+
+     ScrollReveal().reveal('.fourth',{
+      duration:2000,
+      origin:'bottom',
+      distance:'100px',
+      delay:1000
+    })
+
+
+     ScrollReveal().reveal('#contact h5',{
+      duration:2000,
+      easing:'ease-in',
+      origin:'bottom',
+      distance:'10px',
+      delay:200
+    })
+
+     ScrollReveal().reveal('form',{
+      duration:2000,
+      delay:100,
+      scale:1.2
+    })
+
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
